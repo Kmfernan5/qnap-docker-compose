@@ -19,7 +19,7 @@ If creating these containers on a QNAP, add the [QNAPClub repo](https://www.qnap
 You'll need to find a folder to store config in, as data stored in `~` won't survive a reboot (I learned that the hard way!). I chose the `/share/Container` fileshare created by Container Station to store both the `docker-compose.yml` config as well as each container's config folder.
 ```
 cd /share/Container
-git clone https://github.com/jimmybish/qnap-docker-compose.git
+git clone https://github.com/Kmfernan5/qnap-docker-compose.git
 cd qnap-docker-compose
 ```
 
